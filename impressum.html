@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,46 +8,101 @@
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+<style>
+.container-top {
+	background: url(img/bg-container.png) repeat;
+}
+
+.container-top .jumbotron {
+	background: url(img/bg-container.png) repeat;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-family: "Droid Serif", Cambria;
+}
+
+.jumbotron p {
+	font-size: 15px;
+}
+
+footer {
+	font-size: 16px;
+	font-family: "Droid Serif", Cambria;
+	background-color: #353377;
+}
+
+a {
+	color: #479030;
+}
+
+a:hover {
+	color: #286C12;
+}
+</style>
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Start</a></li>
-        <li class="active"><a href="impressum.html">Impressum</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-	<div class="container">
-		<h1>Impressum</h1>
-		<p>Angaben gemäß § 5 TMG:</p>
-		<p>Dennis Kawurek</p>
-		<p>Odenhäuserstr. 17</p>
-		<p>35466 Rabenau</p>
-
-		<h2>Kontakt:</h2>
-		<p>dennis.kawurek@mni.thm.de</p>
+	<div class="container-fluid container-top">
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#myNavbar">
+						<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Start</a></li>
+						<li class="dropdown"><a class="dropdown-toggle"
+							data-toggle="dropdown" href="#">Vorgestellt <span
+								class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="http://www.codepen.io"><span
+										class="glyphicon glyphicon-chevron-right"> </span> codepen.io</a></li>
+								<li><a href="http://www.viralforest.com"><span
+										class="glyphicon glyphicon-chevron-right"> </span>
+										viralforest.com</a></li>
+								<li><a href="http://www.usepanda.com"><span
+										class="glyphicon glyphicon-chevron-right"> </span>
+										usepanda.com</a></li>
+								<li><a href="http://onebigphoto.com"><span
+										class="glyphicon glyphicon-chevron-right"> </span>
+										onebigphoto.com</a>
+							</ul></li>
+						<li class="active"><a href="impressum.html">Impressum</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="jumbotron">
+			<span class="text-center">
+				<h1>Impressum</h1>
+			</span>
+		</div>
 	</div>
+	
+			<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Angaben gemäß § 5 TMG:</h3>
+					<p>Dennis Kawurek</p>
+					<p>Odenhäuserstr. 17</p>
+					<p>35466 Rabenau</p>
+
+					<h3>Kontakt:</h3>
+					<p>dennis.kawurek@mni.thm.de</p>
+				</div>
+			</div>
+		</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
