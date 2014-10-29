@@ -1,0 +1,86 @@
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.row {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+
+.container-top {
+	background: url(img/bg-weiss.png) repeat;
+}
+
+.container-fluid {
+	border-bottom: 0.4em solid #000;
+}
+
+.white {
+	background: url(../img/bg-weiss.png) repeat;
+}
+
+.green{
+	background: url(../img/bg-gruen.png) repeat;
+}
+
+.blue {
+	background: url(../img/bg-blau.png) repeat;
+}
+
+.orange{
+	background: url(../img/bg-orange.png) repeat;
+}
+
+.lila {
+	background: url(../img/bg-lila.png) repeat;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-family: "Droid Serif", Cambria;
+}
+
+.jumbotron p {
+	font-size: 15px;
+}
+
+.linkbox {
+	border: 0.2em solid #333333;
+	margin-bottom: 30px;
+}
+
+h1.black {
+	color: #000;
+}
+
+h2.whitefont {
+	color: #fff;
+}
+
+h2 {
+	font-family: "Droid Serif", Cambria;
+}
+
+footer {
+	font-size: 16px;
+	font-family: "Droid Serif", Cambria;
+	background-color: #353377;
+}
+
+a {
+	color: #479030;
+}
+
+a:hover {
+	color: #286C12;
+}

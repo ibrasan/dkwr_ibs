@@ -15,41 +15,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<style>
-.container-top {
-	background: url(img/bg-container.png) repeat;
-}
-
-.container-top .jumbotron {
-	background: url(img/bg-container.png) repeat;
-}
-
-.jumbotron h1 {
-	color: #fff;
-	font-family: "Droid Serif", Cambria;
-}
-
-.jumbotron p {
-	font-size: 15px;
-}
-
-footer {
-	font-size: 16px;
-	font-family: "Droid Serif", Cambria;
-	background-color: #353377;
-}
-
-a {
-	color: #479030;
-}
-
-a:hover {
-	color: #286C12;
-}
-</style>
+<link href="css/modified.css" rel="stylesheet">
 </head>
 <body>
-	<div class="container-fluid container-top">
+	<div class="container-fluid container-top white">
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -62,105 +31,180 @@ a:hover {
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="index.html">Start</a></li>
-						<li class="dropdown"><a class="dropdown-toggle"
-							data-toggle="dropdown" href="#">Vorgestellt <span
-								class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="http://www.codepen.io"><span
-										class="glyphicon glyphicon-chevron-right"> </span> codepen.io</a></li>
-								<li><a href="http://www.viralforest.com"><span
-										class="glyphicon glyphicon-chevron-right"> </span>
-										viralforest.com</a></li>
-								<li><a href="http://www.usepanda.com"><span
-										class="glyphicon glyphicon-chevron-right"> </span>
-										usepanda.com</a></li>
-								<li><a href="http://onebigphoto.com"><span
-										class="glyphicon glyphicon-chevron-right"> </span>
-										onebigphoto.com</a>
-							</ul></li>
 						<li><a href="impressum.html">Impressum</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-		<div class="jumbotron">
-			<h1 class="text-center">
-				Entdecke interessantes aus dem Web
-			</h1>
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
-					<div id="carousel-example-generic" class="carousel slide"
-						data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0"
-								class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1"
-								class=""></li>
-							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="item active">
-								<img
-									data-src="holder.js/900x500/auto/#777:#555/text:viralforest.com"
-									alt="viralforest.com"
-									src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNTU1O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+" />
-								<div class="carousel-caption">
-									<h3>
-										<a href="http://www.viralforest.com">viralforest.com</a>
-									</h3>
-									<p>Entdecke die nächsten viralen Trends.</p>
-								</div>
-							</div>
-							<div class="item">
-								<img
-									data-src="holder.js/900x500/auto/#666:#444/text:onebigphoto.com"
-									alt="onebigphoto"
-									src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==" />
-								<div class="carousel-caption">
-									<h3>
-										<a href="http://www.onebigphoto.com">onebigphoto.com</a>
-									</h3>
-									<p>Ein großartiges Foto sagt mehr als tausend Worte.</p>
-								</div>
-							</div>
-							<div class="item">
-								<img
-									data-src="holder.js/900x500/auto/#666:#444/text:codepen.io"
-									alt="codepen"
-									src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==" />
-								<div class="carousel-caption">
-									<h3>
-										<a href="http://codepen.io/">codepen.io</a>
-									</h3>
-									<p>Codebeispiele, die die Mächtigkeit von HTML, CSS & JS
-										zeigen.</p>
-								</div>
-							</div>
-							<div class="item">
-								<img
-									data-src="holder.js/900x500/auto/#666:#444/text:usepanda.com"
-									alt="usepanda"
-									src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==" />
-								<div class="carousel-caption">
-									<h3>
-										<a href="http://usepanda.com/app/">usepanda.com</a>
-									</h3>
-									<p>Schöne Designbeispiele.</p>
-								</div>
-							</div>
-						</div>
-						<a class="left carousel-control" href="#carousel-example-generic"
-							role="button" data-slide="prev"> <span
-							class="glyphicon glyphicon-chevron-left"></span>
-						</a> <a class="right carousel-control"
-							href="#carousel-example-generic" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right"></span>
-						</a>
+		<div class="jumbotron white">
+			<h1 class="text-center black">Entdecke die Werkzeuge</h1>
+			<h2 class="text-center">der Webentwicklung</h2>
+			
+				<div class="row row-centered">
+					<div class="col-md-4 col-centered">
+						<p>
+							<span class="lead">Hier werden alle Werkzeuge vorgestellt,
+								die man braucht um das Netz mit der eigenen Seite zu erobern.</span>
+						</p>
 					</div>
+					<div class="col-md-4 col-centered">
+						<ul class="list-unstyled">
+							<li><a href="#inpsiration">Inspiration, Idee, Design</a></li>
+							<li><a href="#entwicklung">Entwicklung</a></li>
+							<li><a href="#test">Test</a></li>
+							<li><a href="#web">Auf ins Web</a></li>
+							<li><a href="#teilen">Teilen</a></li>
+						</ul>
+					</div>
+				</div>
+			
+		</div>
+	</div>
+	
+	<div class="container-fluid green">
+	<div class="container">
+	<a name="inpsiration"></a>
+		<h2 class="text-center whitefont">Inspiration, Idee, Design</h2>
+		<div class="row row-centered">
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>GIMP</h3>
+				<p>Erstelle den ersten Designentwurf für deine Seite mit dem kostenlosen Bildbearbeitungsprogamm GIMP.</p>
+				<p><a href="http://www.gimp.org" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+			
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>codepen.io</h3>
+				<p>Finde heraus, wie mächtig HTML, CSS und JS sein können. Teile deine eigenen Ideen.</p>
+				<p><a href="http://www.codepen.io" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>Smashingmagazine</h3>
+				<p>Lass dich inspirieren.<br/>Entdecke weitere Quellen zur Optimierung deiner Seite.</p>
+				<p><a href="http://www.smashingmagazine.com" class="btn btn-info btn-lg">Bring mich hin!</a></p>
 				</div>
 			</div>
 		</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid blue">
+	<div class="container">
+	<a name="entwicklung"></a>
+		<h2 class="text-center whitefont">Entwicklung</h2>
+		<div class="row row-centered">
+			<div class="col-md-6 col-centered">
+			<div class="linkbox">
+				<h3>GitHub</h3>
+				<p>Verwalte die Versionen deiner Seite. Vielleicht lässt Du auch andere an deiner Seite mitarbeiten?</p>
+				<p><a href="https://www.github.com" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+			
+			<div class="col-md-6 col-centered">
+			<div class="linkbox">
+				<h3>Eclipse</h3>
+				<p>Eine mächtige, sehr gut funktionierende Entwicklungsumgebung für deine Projekte.</p>
+				<p><a href="http://www.eclipse.org" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid orange">
+	<div class="container">
+	<a name="test"></a>
+		<h2 class="text-center whitefont">Test</h2>
+		<div class="row row-centered">
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>Apache</h3>
+				<p>Ein eigener lokaler Server, auf dem Du deine Seite testen kannst, ohne sie vorher ins Netz zu stellen.</p>
+				<p><a href="http://httpd.apache.org/" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+			
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>W3C Validator</h3>
+				<p>Prüfe, ob deine HTML-Seite nach den W3C-Standards regelkonform ist und lasse sie notfalls korrigieren.</p>
+				<p><a href="http://validator.w3.org/" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+			
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>Browsershots</h3>
+				<p>Sieh dir an wie deine Seite auf anderen (exotischen) Browsern aussieht, ohne diese selbst zu installieren.</p>
+				<p><a href="http://browsershots.org/" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid lila">
+	<div class="container">
+	<a name="web"></a>
+		<h2 class="text-center whitefont">Auf ins Web</h2>
+		<div class="row row-centered">
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>CloudControll</h3>
+				<p>(Teilweise) kostenlose Speicher für dein Projekt.</p>
+				<p><a href="http://www.cloudcontrol.com" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+			
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>Uberspace</h3>
+				<p>Bestimme selbst, wie viel dir dein Webspace wert ist.</p>
+				<p><a href="https://uberspace.de/" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid white">
+	<div class="container">
+	<a name="teilen"></a>
+		<h2 class="text-center black">Teilen</h2>
+		<div class="row row-centered">
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>Facebook</h3>
+				<p>Das größte soziale Netzwerk mit fast 1,4 Milliarden Nutzern ist unverzichtbar für jeden, der für seine Seite werben möchte.</p>
+				<p><a href="http://www.facebook.com" class="btn btn-info btn-lg">Bring mich hin!</a></p>	
+			</div>
+			</div>
+			
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+				<h3>Twitter</h3>
+				<p>Der bekannteste Kurznachrichtendienst. Folge interessanten Leuten und werbe für deine Seite.</p>
+				<p><a href="https://www.twitter.com" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+			
+			<div class="col-md-4 col-centered">
+			<div class="linkbox">
+			<h3>Google+</h3>
+			<p>Googles Konkurrenz zu Facebook. Nicht zwingend notwendig, da in Deutschland nicht besonders erfolgreich.</p>
+			<p><a href="https://www.plus.google.com" class="btn btn-info btn-lg">Bring mich hin!</a></p>
+			</div>
+			</div>
+			
+		</div>
+		<h4 class="text-center">Oder vielleicht doch <a href="https://ello.co/">ello</a>?</h4>
+	</div>
 	</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script
