@@ -1,8 +1,71 @@
 body {
 		background: url(../img/bg-weiss.png) repeat;
+		font-family: Arial;
 	}
 
-/* centered columns styles */
+em {
+	font-style: italic;
+}
+
+a {
+	color: #479030;
+}
+
+a:hover {
+	color: #286C12;
+}
+
+
+.jumbotron h1.black {
+	color: #000;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-family: "Droid Serif", Cambria;
+}
+
+.jumbotron p {
+	line-height: 1.5em;
+	font-size: 18px;
+}
+
+h2.whitefont {
+	color: #fff;
+}
+
+h2 {
+	font-family: "Droid Serif", Cambria;
+}
+
+nav {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.navbar-static-top {
+	margin-bottom: 19px;
+	background: #fff;
+}
+
+.navbar-default .navbar-nav .active a {
+	color: #fff;
+	background: #479030;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+	color: #fff;
+	background: #479030;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background: #479030;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #286C12;
+}
+
 .row-centered {
     text-align:center;
 }
@@ -49,42 +112,11 @@ body {
 	background: url(../img/bg-lila.png) repeat;
 }
 
-.jumbotron h1 {
-	color: #fff;
-	font-family: "Droid Serif", Cambria;
-}
-
-.jumbotron p {
-	font-size: 15px;
-}
-
 .linkbox {
 	border: 0.2em solid #333333;
 	margin-bottom: 30px;
 }
 
-h1.black {
-	color: #000;
-}
-
-h2.whitefont {
-	color: #fff;
-}
-
-h2 {
-	font-family: "Droid Serif", Cambria;
-}
-
-footer {
-	font-size: 16px;
-	font-family: "Droid Serif", Cambria;
-	background-color: #353377;
-}
-
-a {
-	color: #479030;
-}
-
-a:hover {
-	color: #286C12;
+.lead {
+	font-size: 22px;
 }
