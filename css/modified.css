@@ -1,7 +1,7 @@
 body {
-		background: url(../img/bg-weiss.png) repeat;
-		font-family: Arial;
-	}
+	background: url(../img/bg-weiss.png) repeat;
+	font-family: Arial;
+}
 
 em {
 	font-style: italic;
@@ -15,23 +15,18 @@ a:hover {
 	color: #286C12;
 }
 
-
-.jumbotron h1.black {
-	color: #000;
+.jumbotron {
+	background: none;
 }
 
 .jumbotron h1 {
-	color: #fff;
+	color: #000;
 	font-family: "Droid Serif", Cambria;
 }
 
 .jumbotron p {
 	line-height: 1.5em;
 	font-size: 18px;
-}
-
-h2.whitefont {
-	color: #fff;
 }
 
 h2 {
@@ -58,7 +53,8 @@ nav {
 	background: #479030;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus
+	{
 	background: #479030;
 }
 
@@ -67,13 +63,14 @@ nav {
 }
 
 .row-centered {
-    text-align:center;
+	text-align: center;
 }
+
 .col-centered {
-    display:inline-block;
-    float:none;
-    /* inline-block space fix */
-    margin-right:-4px;
+	display: inline-block;
+	float: none;
+	/* inline-block space fix */
+	margin-right: -4px;
 }
 
 .row {
@@ -83,7 +80,6 @@ nav {
 	font-size: 18px;
 }
 
-
 .container-top {
 	background: url(img/bg-weiss.png) repeat;
 }
@@ -92,30 +88,34 @@ nav {
 	border-bottom: 0.4em solid #000;
 }
 
-.white {
-	background: url(../img/bg-weiss.png) repeat;
-}
-
-.green{
-	background: url(../img/bg-gruen.png) repeat;
-}
-
-.blue {
-	background: url(../img/bg-blau.png) repeat;
-}
-
-.orange{
-	background: url(../img/bg-orange.png) repeat;
-}
-
-.lila {
-	background: url(../img/bg-lila.png) repeat;
-}
-
 .linkbox {
 	border: 0.2em solid #333333;
 	margin-bottom: 30px;
 }
+
+.form-control:focus {
+	border-color: #286C12;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(51, 138, 46, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(51, 138, 46, .6);
+	color: #000;
+	font-size: 18px;
+}
+
+.btn-info, .btn-default {
+	color: #fff;
+	background: #479030;
+	border: 0.1em solid #286C12;
+}
+
+.btn-info:hover, .btn-default:hover {
+	color: #fff;
+	background: #286C12;
+	border: 0.1em solid #479030;
+}
+
 
 .lead {
 	font-size: 22px;
