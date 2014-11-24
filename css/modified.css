@@ -1,6 +1,6 @@
 body {
-	background: url(../img/bg-weiss.png) repeat;
-	font-family: Arial;
+	background: #99a478;
+	font-family: "Varela Round";
 }
 
 em {
@@ -8,11 +8,12 @@ em {
 }
 
 a {
-	color: #306421;
+	color: #fff;
 }
 
 a:hover {
-	color: #286C12;
+	text-decoration: underline;
+	color: #fff;
 }
 
 .jumbotron {
@@ -29,36 +30,41 @@ a:hover {
 	font-size: 18px;
 }
 
+h1,h2,h3,h4 {
+	color: #000;
+}
+
 h2 {
 	font-family: "Droid Serif", Cambria;
 }
 
 nav {
-	font-family: Arial;
+	font-family: "Varela Round";
 	font-size: 16px;
 }
 
 .navbar-static-top {
 	margin-bottom: 19px;
 	background: #fff;
+	border-bottom: none;
 }
 
 .navbar-default .navbar-nav .active a {
 	color: #fff;
-	background: #306421;
+	background: #99a478;
 }
 
 .navbar-default .navbar-nav .active a:hover {
 	color: #fff;
-	background: #306421;
+	background: #99a478;
 }
 
-.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+.navbar-default .99a478-toggle:hover,.navbar-default .navbar-toggle:focus {
 	background: #306421;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #286C12;
+	background-color: #99a478;
 }
 
 .row-centered {
@@ -73,9 +79,10 @@ nav {
 }
 
 .row {
+	color: #000;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	font-family: Arial;
+	font-family: "Varela Round";
 	font-size: 18px;
 }
 
@@ -105,14 +112,14 @@ nav {
 
 .btn-info, .btn-default {
 	color: #fff;
-	background: #306421;
-	border: 0.1em solid #286C12;
+	background: #3d3536;
+	border: 0.1em solid #a6989a;
 }
 
 .btn-info:hover, .btn-default:hover {
-	color: #fff;
-	background: #286C12;
-	border: 0.1em solid #306421;
+	color: #000;
+	background: #a6989a;
+border: 0.1em solid #3d3536;
 }
 
 
