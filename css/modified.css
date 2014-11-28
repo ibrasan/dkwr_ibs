@@ -1,6 +1,6 @@
 body {
 	background: #f0efd1;
-	font-family: "sans-serif";
+	font-family: Helvetica;
 }
 
 em {
@@ -23,7 +23,7 @@ a:hover {
 
 .jumbotron h1 {
 	color: #000;
-	font-family: Ubuntu, "sans-serif";
+	font-family: Ubuntu, Calibri;
 }
 
 .jumbotron p {
@@ -47,7 +47,7 @@ nav {
 	margin-bottom: 19px;
 	background: #fff;
 	border-bottom: none;
-	font-family: "sans-serif";
+	font-family: Helvetica;
 }
 
 .navbar-default .navbar-nav>li>a {
