@@ -1,6 +1,6 @@
 body {
-	background: #99a478;
-	font-family: "Varela Round";
+	background: #f0efd1;
+	font-family: "sans-serif";
 }
 
 em {
@@ -8,12 +8,13 @@ em {
 }
 
 a {
-	color: #fff;
+	color: #bf3211;
+	text-decoration: underline;
 }
 
 a:hover {
-	text-decoration: underline;
-	color: #fff;
+	color: #bf3211;
+	text-decoration: none;
 }
 
 .jumbotron {
@@ -22,7 +23,7 @@ a:hover {
 
 .jumbotron h1 {
 	color: #000;
-	font-family: "Droid Serif", Cambria;
+	font-family: Ubuntu, "sans-serif";
 }
 
 .jumbotron p {
@@ -35,36 +36,46 @@ h1,h2,h3,h4 {
 }
 
 h2 {
-	font-family: "Droid Serif", Cambria;
+	font-family: Ubuntu, "sans-serif";
 }
 
 nav {
-	font-family: "Varela Round";
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .navbar-static-top {
 	margin-bottom: 19px;
 	background: #fff;
 	border-bottom: none;
+	font-family: "sans-serif";
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #bf3211;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #bf3211;
+	text-decoration: none;
 }
 
 .navbar-default .navbar-nav .active a {
 	color: #000;
-	background: #99a478;
+	background: #f0efd1;
+	text-decoration: none;
 }
 
 .navbar-default .navbar-nav .active a:hover {
-	color: #fff;
-	background: #99a478;
+	color: #000;
+	background: #f0efd1;
 }
 
 .navbar-default .99a478-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background: #306421;
+	background: #f0efd1;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #99a478;
+	background-color: #f0efd1;
 }
 
 .row-centered {
@@ -82,12 +93,7 @@ nav {
 	color: #000;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	font-family: "Varela Round";
 	font-size: 18px;
-}
-
-.container-top {
-	background: url(img/bg-weiss.png) repeat;
 }
 
 .container-fluid {
@@ -100,7 +106,7 @@ nav {
 }
 
 .form-control:focus {
-	border-color: #286C12;
+	border-color: #CF000F;
 	outline: 0;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
 		rgba(51, 138, 46, .6);
@@ -112,14 +118,15 @@ nav {
 
 .btn-info, .btn-default {
 	color: #fff;
-	background: #3d3536;
-	border: 0.1em solid #a6989a;
+	background: #bf3211;
+	border: 0.1em solid #CF000F;
+	text-decoration: none;
 }
 
 .btn-info:hover, .btn-default:hover {
-	color: #000;
-	background: #a6989a;
-border: 0.1em solid #3d3536;
+	color: #fff;
+	background: #CF000F;
+	border: 0.1em solid #bf3211;
 }
 
 
