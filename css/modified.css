@@ -52,11 +52,12 @@ nav {
 
 .navbar-default .navbar-nav>li>a {
 	color: #bf3211;
+	text-decoration: none;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
 	color: #bf3211;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .navbar-default .navbar-nav .active a {
